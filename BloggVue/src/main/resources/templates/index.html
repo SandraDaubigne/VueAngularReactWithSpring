@@ -31,9 +31,9 @@ var app = new Vue({
         },
     methods: {
         fetchPosts(){
-            axios.get("/posts").then(function(response){
-                this.posts = response.data;
-            }.bind(this));
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', '/posts');
+            xhr.send();
         }
     }
 
