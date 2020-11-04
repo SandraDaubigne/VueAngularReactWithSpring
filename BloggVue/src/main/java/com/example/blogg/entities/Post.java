@@ -16,7 +16,7 @@ public class Post {
     private String title;
     private String body;
     private Date dateCreated;
-
+    
     public Post() {
     }
 
