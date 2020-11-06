@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div id="app">
+    <h3>{{message}}</h3>
+    <ul>
+        <li v-for="post in posts">
+            <h3>{{post.title}}</h3>
+            <p>{{post.body}}</p>
+        </li>
+    </ul>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: "Hello",
+            posts: []},
+        mounted(){
+            this.fetchPosts();
+        },
+        methods: {
+            fetchPosts(){
+                const xhr = new XMLHttpRequest();
+                xhr.open('GET', '/posts');
+                xhr.send();
+            }
+        }
+
+    });
+</script>
+
+</html>
