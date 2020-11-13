@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+<div><h3>Index working</h3></div>
+<div id="app">
+    <h3>{{message}}</h3>
+    <ul>
+        <li v-for="topic in topics">
+            <h3>{{topic.title}}</h3>
+            <p>{{topic.description}}</p>
+        </li>
+    </ul>
+</div>
+
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {topics: []},
+        mounted(){this.fetchPosts();},
+        methods : {
+            fetchPosts(){
+                axios.get("/all").then(function(response){
+                    this.topics = response.data;
+                }.bind(this));
+            }
+        }
+    });
+</script>
+
+</html>
