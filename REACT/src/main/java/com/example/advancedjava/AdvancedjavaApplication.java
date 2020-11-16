@@ -1,13 +1,13 @@
-package com.example.reactapp;
+package com.example.advancedjava;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReactappApplication {
+public class AdvancedjavaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ReactappApplication.class, args);
+        SpringApplication.run(AdvancedjavaApplication.class, args);
     }
 
 }
