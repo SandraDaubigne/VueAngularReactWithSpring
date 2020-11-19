@@ -83,8 +83,10 @@ Skapa ett nytt projekt
 Välj Spring Initializr
 Välj lämplig Artifact
 Välj Dependencies: 
+```
 Web -> spring Web
 SQL -> Spring Data JDBC  samt Spring Data JPA
+```
 Välj lämpligt projektnamn
 
 Jag lägger till maven dependency thymeleaf för att kunna rendera view
@@ -95,13 +97,15 @@ Jag lägger till maven dependency thymeleaf för att kunna rendera view
 
 #### Installera Vue - CDN
 Lägg dessa i index.html filen som du skapar under resourses i Spring projektet. 
+```
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
-
+```
 #### Installera React
 Lägg dessa i index.html filen som du skapar under resourses i Spring projektet. 
+```
 <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-
+```
 
 
 
