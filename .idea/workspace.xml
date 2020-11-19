@@ -1,46 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c57131b0-d821-4f1a-9c3c-dff5f815bcaa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/VueAngularReactWithSpringBoot.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ANGULARBackend/src/main/java/com/example/advancedjava/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARBackend/src/main/java/com/example/advancedjava/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/ANGULARBackend/src/main/java/com/example/advancedjava/Topic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ANGULARBackend/src/main/resources/templates/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/REACT/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +59,22 @@
       <option name="presentableId" value="Default" />
       <updated>1605782344118</updated>
       <workItem from="1605782345468" duration="12000" />
+      <workItem from="1605782414944" duration="254000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

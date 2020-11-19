@@ -13,6 +13,7 @@ De har bedömts utifrån egna upplevelser av mig som systemutvecklare(java) med 
 * Setup 
 * Att använda det språk ramverket efterfrågar
 * Att skriva Typsäkert
+
 * Att få tag på dokumentation kring ramverket
 
  
