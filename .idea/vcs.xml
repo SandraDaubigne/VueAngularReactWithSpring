@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ANGULAR/Backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ANGULARBackend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/REACT" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/VUE" vcs="Git" />
   </component>

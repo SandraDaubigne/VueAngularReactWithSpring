@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c57131b0-d821-4f1a-9c3c-dff5f815bcaa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VueAngularReactWithSpringBoot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULAR/Frontend/app/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARBackend/src/main/java/com/example/advancedjava/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARBackend/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/src/main/resources/templates/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kVOZ8YiJEinQcg565JOkSw3pQ7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c57131b0-d821-4f1a-9c3c-dff5f815bcaa" name="Default Changelist" comment="" />
+      <created>1605782344118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605782344118</updated>
+      <workItem from="1605782345468" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
