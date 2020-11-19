@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c57131b0-d821-4f1a-9c3c-dff5f815bcaa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/REACT/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/src/main/resources/templates/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/REACT" />
+  </component>
+  <component name="ProjectId" id="1kVOZ8YiJEinQcg565JOkSw3pQ7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c57131b0-d821-4f1a-9c3c-dff5f815bcaa" name="Default Changelist" comment="" />
+      <created>1605782344118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605782344118</updated>
+      <workItem from="1605782345468" duration="12000" />
+      <workItem from="1605782414944" duration="1048000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2721" y="236" key="FileChooserDialogImpl" timestamp="1605783075055">
+      <screen x="2160" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2721" y="236" key="FileChooserDialogImpl/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1605783075055" />
+    <state x="2532" y="156" key="new project wizard" timestamp="1605783078276">
+      <screen x="2160" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2532" y="156" key="new project wizard/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1605783078276" />
+  </component>
+</project>
