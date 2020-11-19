@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57131b0-d821-4f1a-9c3c-dff5f815bcaa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/src/main/java/com/example/advancedjava/AdvancedjavaApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/REACT/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/REACT" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,7 +56,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605782344118</updated>
       <workItem from="1605782345468" duration="12000" />
-      <workItem from="1605782414944" duration="1048000" />
+      <workItem from="1605782414944" duration="1105000" />
+      <workItem from="1605783562532" duration="837000" />
     </task>
     <servers />
   </component>
@@ -71,12 +74,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2721" y="236" key="FileChooserDialogImpl" timestamp="1605783075055">
+    <state x="2721" y="236" key="FileChooserDialogImpl" timestamp="1605783721727">
       <screen x="2160" y="0" width="1920" height="1040" />
     </state>
-    <state x="2721" y="236" key="FileChooserDialogImpl/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1605783075055" />
+    <state x="2721" y="236" key="FileChooserDialogImpl/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1605783721727" />
     <state x="2532" y="156" key="new project wizard" timestamp="1605783078276">
       <screen x="2160" y="0" width="1920" height="1040" />
     </state>
