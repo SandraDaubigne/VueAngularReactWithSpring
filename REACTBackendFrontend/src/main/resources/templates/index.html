@@ -1,25 +1,40 @@
-<!DOCTYPE html>
-<html xmlns:th="https://www.thymeleaf.org">
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-</head>
+<html>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 <body>
-<div id="app"></div>
 
-</body>
-<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+<div id="mydiv"></div>
 
-<script>
-    //ReactDOM.render(<p>Max</p>, document.QuerySelector('#app'));
-    //const element = React.createElement('p', null, 'Max');
+<script type="text/babel">
+    class Hello extends React.Component {
+        state = {
+            topics: []
+        }
 
-    const element = React.createElement('p', null, 'Max');
-    ReactDOM.render(element, document.querySelector('#app'));
+        componentDidMount() {
+            axios.get(`/all`)
+                .then(res => {
+                    const topics = res.data;
+                    this.setState({ topics });
+                })
+        }
+
+        render() {
+            return (
+                <ul>
+                    { this.state.topics.map(topic =>
+                    <li>
+                        {topic.title}
+                        {topic.description}
+                    </li>)}
+                </ul>
+            )
+        }
+    }
+
+    ReactDOM.render(<Hello />, document.getElementById('mydiv'))
 </script>
-
+</body>
 </html>
