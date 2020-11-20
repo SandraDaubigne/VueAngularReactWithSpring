@@ -2,6 +2,7 @@
 
 Dokumentationen består av följande delar: 
 * Jämnförelse Ramverk
+* Programmets funktion
 * Miljöspecifikation
 * Setup av arbetsmiljö
 
@@ -20,6 +21,15 @@ De har bedömts utifrån egna upplevelser av mig som systemutvecklare(java) med 
 * Att använda det språk ramverket efterfrågar
 * Att skriva Typsäkert
 * Att få tag på dokumentation kring ramverket
+
+## Programmets funktion: 
+Backendkoden består av en blogg som ska leverera en lista av bloggar med namn och beskrivning till klienten. Listan sparas i MySql databas och hämtas genom rest API. Det är detta frontend avser att göra i detta fall med hjälp av 3 av de största ramverken. 
+
+#### Klass-specifikationer
+**Topic** är min POJO klass som fungerar som Entity mot Hibernate. 
+**TopicService** är Model klassen som hanterar all Business Logic
+**TopicRepository** tar in CrudRepository från Hibernate och ger min färdiga metoder till Entiteter, att använda i TopicService-klassen. 
+**TopicController** är controller klassen som blir dispatcherservlet åt Tomcat och som håller mina Mapper handlers som hanterar inkommande Request och responser från http protokollet. 
 
 
 ### Bedömning Vue
@@ -65,16 +75,16 @@ Med följande tillägg i Spring Initializer Maven projekt
 
 Med följande tillägg i pom.xml - filen
 * Thymeleaf ( för rendering av view såsom index.html filen) 
-
+```
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+```
 #### Frontend-miljön
 * Till Vue och React har jag använt mig av Spring Ramverket med Thymeleaf och index.html fil där jag har skrivit all html och JavaScript och tagit in ramverken med CDN 
 * Till Angular har jag använt mig av Visual Studio Code och tagit in ramverket som NPM.
 
-#### Klass-specifikationer
-**Topic** är min POJO klass som fungerar som Entity mot Hibernate. 
-**TopicService** är Model klassen som hanterar all Business Logic
-**TopicRepository** tar in CrudRepository från Hibernate och ger min färdiga metoder till Entiteter, att använda i TopicService-klassen. 
-**TopicController** är controller klassen som blir dispatcherservlet åt Tomcat och som håller mina Mapper handlers som hanterar inkommande Request och responser från http protokollet. 
 
 ## Setup för arbetsmiljö
 
@@ -107,6 +117,22 @@ Lägg dessa i index.html filen som du skapar under resourses i Spring projektet.
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 ```
 
+#### Installera Angular
+För att kunna använda NPM behöver du först installera node.js på din enhet. Med den installationen kommer NPM med, det är ett verktyg för att kunna hantera Node.Packages. 
+
+Angular kan inte använda CDN vilket gjorde att jag fattade beslutet att göra två applikationer. En för Frontend och en för Backend. 
+
+Jag har gjort en mapp innan inne i Angular Mappen, som heter Frontend. 
+Öppna Frontend mappen i VS terminalen och ange följande kommandon:
+
+```
+npm install -g @angular/cli
+ng new app
+cd app
+ng serve
+
+```
+Öppna localhost:4200 och där är nu din frontend app. 
 
 
 
