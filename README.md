@@ -14,6 +14,8 @@ Teknikhögskolan i Göteborg fått följande uppdrag:
 
 Syfte med detta projekt är att jämföra de 3 största frontend ramverkets fördelar och nackdelar i användarupplevelse från ett backend perspektiv, för eventuella framtida projekt. 
 
+Fokuset i detta projektet har varit att utvärdera hur enkelt det har varit att sätta upp ett frontend till sin befintliga backendkod. 
+
 Bedömningen har skett av egna användarupplevelser gällande huruvida dessa delar har varit enkla eller svåra.
 De har bedömts utifrån egna upplevelser av mig som systemutvecklare(java) med viss webb utvecklarbakgrund och baserats på följande delar: 
 
