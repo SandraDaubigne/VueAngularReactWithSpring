@@ -54,7 +54,7 @@ Backendkoden består av en blogg som ska leverera en lista av bloggar med namn o
 
 ## Miljöspecifikation
 
-#### Backend-miljön
+### Backend-miljön
 Jag har använt mig av 
 IntelliJ IDEA For Spring applikation JavaEE
 
@@ -71,7 +71,7 @@ Med följande tillägg i pom.xml - filen
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 ```
-#### Frontend-miljön
+### Frontend-miljön
 * Till Vue och React har jag använt mig av Spring Ramverket med Thymeleaf och index.html fil där jag har skrivit all html och JavaScript och tagit in ramverken med CDN 
 * Till Angular har jag använt mig av Visual Studio Code och tagit in ramverket som NPM.
 
