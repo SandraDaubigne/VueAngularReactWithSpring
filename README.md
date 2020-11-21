@@ -40,19 +40,21 @@ De har bedömts utifrån egna upplevelser av mig som systemutvecklare(java) med 
 * **TopicController** är controller klassen som blir dispatcherservlet åt Tomcat och som håller mina Mapper handlers som hanterar inkommande Request och responser från http protokollet. 
 
 ### Bedömning Vue
-* **Setup** Vue kan användas genom både [CDN](#förklaringar-förkortningar) och [NPM](#npm) vilket gjorde det enkelt att starta utan lokal installation.
+* **Setup** Vue kan användas genom både [CDN](#förklaringar-förkortningar) och [NPM](#förklaringar-förkortningar) vilket gjorde det enkelt att starta utan lokal installation.
+Jag använde mig av [CDN](#förklaringar-förkortningar) vilket innebar att jag kunde använda mig direkt av Springramverket och fortsätta på det befintliga backendprojektet med min frontend. Det enda tillägget som behövdes var [thymeleaf](#thymeleaf) i pom.xl filen. 
 * **Språk** Vue var enkelt att användas då det bestod av Vanilla JavaScript.
-* **Typsäkert** React använder ett Javascript Bibliotek som inte är typsäkert. 
+* **Typsäkert** Vue använder implicit ett Javascript Bibliotek som inte är typsäkert, men det kan användas även med TypeScript som är Typsäkert, dock blir detta svårare än det implicita då det kräver mera installationer. 
 
 ### Bedömning React
-* **Setup** Vue kan användas genom både [CDN](#cdn) och [NPM](#npm) vilket gjorde det enkelt att starta utan lokal installation.
-* **Språk** React använder endast JavaScript ES6 och behövde därför använda Babel för att kompileras, detta gjorde det lite svårare. De använder dessutom ofta ett tillägg till JavaScript, JSX. Detta förhindrar dock XXS. 
-* **Typsäkert** React använder ett Javascript Bibliotek som inte är typsäkert. 
+* **Setup** Vue kan användas genom både [CDN](#förklaringar-förkortningar) och [NPM](#förklaringar-förkortningar) vilket gjorde det enkelt att starta utan lokal installation. 
+Jag använde mig av [CDN](#förklaringar-förkortningar) vilket innebar att jag kunde använda mig direkt av Springramverket och fortsätta på det befintliga backendprojektet med min frontend. Det enda tillägget som behövdes var [thymeleaf](#thymeleaf) i pom.xl filen. 
+* **Språk** React använder endast JavaScript ES6 och behövde därför använda Babel för att kompileras, detta gjorde det lite svårare. De använder dessutom ofta ett tillägg till JavaScript, [JSX](#förklaringar-förkortningar). Detta förhindrar dock [XXS](#förklaringar-förkortningar). 
+* **Typsäkert** React använder implicit ett Javascript Bibliotek som inte är typsäkert, men det kan användas även med TypeScript som är Typsäkert, dock blir detta svårare än det implicita då det kräver mera installationer
 
 ### Bedömning Angular
-* **Setup** Det var det svåraste att sätta upp då det bara går att använda lokalt. 
-* **Språk** Angular använder TypeScript det var för en backendutvecklare enklare att förstå än vanlig 
-* **Typsäkert** TypeScript är typsäkert
+* **Setup** Det var det svåraste ramverket att sätta upp då det bara går att använda lokalt med [NPM](#förklaringar-förkortningar). Vilket innebar att jag inte längre kunde använda mig av min Springapplikations backend längre, utan jag fick dela upp frontend och backend i två olika projekt. 
+* **Språk** Angular använder TypeScript det var för en backendutvecklare enklare att förstå än vanlig JavaScript
+* **Typsäkert** Angular använder implicit TypeScript, en extension JavaScript. TypeScript är ett typsäkert språk så det var lätt att göra koden typsäker. 
 
 ## Miljöspecifikation
 
@@ -65,6 +67,7 @@ Med följande tillägg i Spring Initializer Maven projekt
 * Spring Data JDBC (För SQL DB Connection)
 * Spring Data JPA (för Hibernate)
 
+##### Thymeleaf:
 Med följande tillägg i pom.xml - filen
 * Thymeleaf ( för rendering av view såsom index.html filen) 
 ```
@@ -110,12 +113,13 @@ Lägg dessa i index.html filen som du skapar under resourses i Spring projektet.
 ```
 
 #### Installera Angular
-För att kunna använda NPM behöver du först installera node.js på din enhet. Med den installationen kommer NPM med, det är ett verktyg för att kunna hantera Node.Packages. 
+För att kunna använda [NPM](#förklaringar-förkortningar) behöver du först installera node.js på din enhet. I den installation ingår [NPM](#förklaringar-förkortningar).
 
-Angular kan inte använda CDN vilket gjorde att jag fattade beslutet att göra två applikationer. En för Frontend och en för Backend. 
+Angular kan inte använda [CDN](#förklaringar-förkortningar) vilket gjorde att jag fattade beslutet att göra en separat frontendapplikation 
+som kan prata med backendapplikationen, istället för att inkludera det i Springprojektet (backend) som jag gjort med Vue och React. 
 
-Jag har gjort en mapp innan inne i Angular Mappen, som heter Frontend. 
-Öppna Frontend mappen i VS terminalen och ange följande kommandon:
+Gör en tom mapp på skrivbordet där Angular installationen kan landa. 
+Öppna mappen i Visual Studio Code och ange följande kommandon:
 
 ```
 npm install -g @angular/cli
