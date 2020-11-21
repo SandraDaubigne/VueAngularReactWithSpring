@@ -1,10 +1,16 @@
 # Dokumentation Projekt jämföra ramverk
 
-Dokumentationen består av följande delar: 
-* Jämnförelse Ramverk [Ramverk](#jämnförelse-Ramverk)
-* Programmets funktion [Programmets funktion](#programmets-funktion)
-* Miljöspecifikation
-* Setup av arbetsmiljö
+##### Dokumentationen består av följande delar: 
+* [Ramverk](#jämnförelse-Ramverk)
+* [Programmets funktion](#programmets-funktion)
+* [Miljöspecifikation](#miljöspecifikation)
+* [Setup av arbetsmiljö](#setup-för-arbetsmiljö)
+
+##### Förklaringar på förkortningar:
+* **##### NPM** - Node Package Maneger, tar in ramverket lokalt på datorn genom att ange vissa kommandon i terminalen. 
+* **##### CDN** - Content Delivery Network, en url som tas in i scriptfil i .html filen och förser projektet med ramverket från annan server än din egen. 
+* **JSX** - JavaScript XML Ett tillägg i JavaScript för att kunna skriva html liknande taggar direkt inne i JavaScript
+* **XSS** - Cross Site Scripting, ett säkerthetshål i hmtl där script skickas in i html taggar. 
 
 ## Jämnförelse Ramverk:
 Jag har under min LIA period på Sopra Steria under hösten 2020 som en del av min utbildning javautvecklare på 
@@ -12,20 +18,20 @@ Teknikhögskolan i Göteborg fått följande uppdrag:
 
 #### Jämföra de 3 största JavaScript ramverken Vue, React och Angular med varandra. 
 
-Syfte med detta projekt är att jämföra de 3 största frontend ramverkets fördelar och nackdelar i användarupplevelse från ett backend perspektiv, för eventuella framtida projekt. 
+Syfte med detta projekt är att jämföra de 3 största frontend ramverkets fördelar och nackdelar i användarupplevelse från ett backend perspektiv.
 
 Fokuset i detta projektet har varit att utvärdera hur enkelt det har varit att sätta upp ett frontend till sin befintliga backendkod. 
 
 Bedömningen har skett av egna användarupplevelser gällande huruvida dessa delar har varit enkla eller svåra.
 De har bedömts utifrån egna upplevelser av mig som systemutvecklare(java) med viss webb utvecklarbakgrund och baserats på följande delar: 
 
-* Setup 
-* Att använda det språk ramverket efterfrågar
-* Att skriva Typsäkert
-* Att få tag på dokumentation kring ramverket
+* Setup - Att installera /starta upp ramverket
+* Språk - Att använda ramverkets implicita språk
+* Typsäkert - Att skriva typsäkert i ramverket
 
 ## Programmets funktion: 
-Backendkoden består av en blogg som ska leverera en lista av bloggar med namn och beskrivning till klienten. Listan sparas i MySql databas och hämtas genom Rest API. Det är detta frontend avser att göra i detta fall med hjälp av 3 av de största ramverken. 
+* Backendkoden består av en blogg som ska leverera en lista av bloggar med namn och beskrivning till klienten. 
+* De tre olika frontenramverken skickar http request till backend och mottar respons från APIet.
 
 #### Klass-specifikationer
 * **Topic** är min POJO klass som fungerar som Entity mot Hibernate.
@@ -33,24 +39,20 @@ Backendkoden består av en blogg som ska leverera en lista av bloggar med namn o
 * **TopicRepository** tar in CrudRepository från Hibernate och ger min färdiga metoder till Entiteter, att använda i TopicService-klassen. 
 * **TopicController** är controller klassen som blir dispatcherservlet åt Tomcat och som håller mina Mapper handlers som hanterar inkommande Request och responser från http protokollet. 
 
-
 ### Bedömning Vue
-* **Setup** Vue kan användas utan att importera NPM lokalt genom script i html filen. Detta gjorde det enkelt att använda. 
-* **Språk** Vue var enkelt att användas då det bestod av Vanilla JS
+* **Setup** Vue kan användas genom både [CDN](#cdn) och [NPM](#npm) vilket gjorde det enkelt att starta utan lokal installation.
+* **Språk** Vue var enkelt att användas då det bestod av Vanilla JavaScript.
 * **Typsäkert** React använder ett Javascript Bibliotek som inte är typsäkert. 
-* **Dokumentation** Det var lätt att hitta information om Vue
 
 ### Bedömning React
-* **Setup** React kan användas utan att importera NPM lokalt genom script i html filen. Detta gjorde det enkelt att använda. 
-* **Språk** React använder endast ES6 och behövde därför använda babel för att kompileras, detta gjorde det lite svårare. De använder dessutom ofta ett JSX tillägg för att kunna skriva html liknande taggar inne i JavaScripten. Detta var svårt att få till men bra för att de förhindrade XSS i koden och gjorde koden säkrare. 
+* **Setup** Vue kan användas genom både [CDN](#cdn) och [NPM](#npm) vilket gjorde det enkelt att starta utan lokal installation.
+* **Språk** React använder endast JavaScript ES6 och behövde därför använda Babel för att kompileras, detta gjorde det lite svårare. De använder dessutom ofta ett tillägg till JavaScript, JSX. Detta förhindrar dock XXS. 
 * **Typsäkert** React använder ett Javascript Bibliotek som inte är typsäkert. 
-* **Dokumentation** Det var svårare att få tag i dokumentation kring React.
 
 ### Bedömning Angular
 * **Setup** Det var det svåraste att sätta upp då det bara går att använda lokalt. 
 * **Språk** Angular använder TypeScript det var för en backendutvecklare enklare att förstå än vanlig 
 * **Typsäkert** TypeScript är typsäkert
-* **Dokumentation** Det var lättare att få dokumentation av TypeScript ä om Angular ramverket, men de använder TS så mycket i koden så det var ändå lätt att följa med. 
 
 ## Miljöspecifikation
 
