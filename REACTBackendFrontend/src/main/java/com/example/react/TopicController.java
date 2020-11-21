@@ -11,11 +11,9 @@ public class TopicController {
     @Autowired
     private TopicService topicService;
 
-    //Hämta alla objekt
-    //Skapa en metod som hämtar ett en lista av objekt och returnerar
-    //dem som JSON genom restcontroller
     @GetMapping("/all")
     public List<Topic> topics(){
+
         return topicService.getAllTopics();
     }
 
