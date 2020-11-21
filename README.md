@@ -6,9 +6,9 @@
 * [Miljöspecifikation](#miljöspecifikation)
 * [Setup av arbetsmiljö](#setup-för-arbetsmiljö)
 
-##### Förklaringar på förkortningar:
-* **##### NPM** - Node Package Maneger, tar in ramverket lokalt på datorn genom att ange vissa kommandon i terminalen. 
-* **##### CDN** - Content Delivery Network, en url som tas in i scriptfil i .html filen och förser projektet med ramverket från annan server än din egen. 
+##### Förklaringar förkortningar:
+* **NPM** - Node Package Maneger, tar in ramverket lokalt på datorn genom att ange vissa kommandon i terminalen. 
+* **CDN** - Content Delivery Network, en url som tas in i scriptfil i .html filen och förser projektet med ramverket från annan server än din egen. 
 * **JSX** - JavaScript XML Ett tillägg i JavaScript för att kunna skriva html liknande taggar direkt inne i JavaScript
 * **XSS** - Cross Site Scripting, ett säkerthetshål i hmtl där script skickas in i html taggar. 
 
@@ -40,7 +40,7 @@ De har bedömts utifrån egna upplevelser av mig som systemutvecklare(java) med 
 * **TopicController** är controller klassen som blir dispatcherservlet åt Tomcat och som håller mina Mapper handlers som hanterar inkommande Request och responser från http protokollet. 
 
 ### Bedömning Vue
-* **Setup** Vue kan användas genom både [CDN](#cdn) och [NPM](#npm) vilket gjorde det enkelt att starta utan lokal installation.
+* **Setup** Vue kan användas genom både [CDN](#förklaringar-förkortningar) och [NPM](#npm) vilket gjorde det enkelt att starta utan lokal installation.
 * **Språk** Vue var enkelt att användas då det bestod av Vanilla JavaScript.
 * **Typsäkert** React använder ett Javascript Bibliotek som inte är typsäkert. 
 
