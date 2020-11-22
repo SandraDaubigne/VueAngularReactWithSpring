@@ -80,16 +80,6 @@ pom.xml filen tillåter mig att hämta hem dependencies direkt från [Maven repo
 
 #### Lägg till följande dependencies i pom.xml filen: 
 
-##### Thymeleaf:
-Med följande tillägg i pom.xml - filen
-* Thymeleaf ( för rendering av view såsom index.html filen) 
-```
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
-```
-
 * MySQL connector
 ```
         <dependency>
@@ -110,6 +100,18 @@ spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
 ```
 
 ### Frontend
+
+#### Lägg till följande dependencies i pom.xml filen: 
+
+##### Thymeleaf:
+Med följande tillägg i pom.xml - filen
+* Thymeleaf ( för rendering av view såsom index.html filen) 
+```
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+```
 
 #### Installera Vue - CDN
 Lägg dessa i index.html filen som du skapar under resourses i Spring projektet. 
