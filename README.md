@@ -145,6 +145,8 @@ ng serve
 
 ```
 
+//Tack för din läsning, Sandra
+
 
 
 
