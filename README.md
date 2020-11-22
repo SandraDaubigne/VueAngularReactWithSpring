@@ -122,10 +122,10 @@ Lägg dessa i index.html filen som du skapar under resourses i Spring projektet.
 ```
 
 #### Installera Vue - NPM
-Först behöver du ha laddat ner Node.js till din dator.
-Skapa en mapp på skrivbordet och öppna den i Visual Studio Code
-Öppna en ny terminal och kör följande kommandon: 
-(app är namnet på projektet och kan bytas ut till det som passar dig.)
+* Först behöver du ha laddat ner Node.js till din dator.
+* Skapa en mapp på skrivbordet och öppna den i Visual Studio Code
+* Öppna en ny terminal och kör följande kommandon: 
+* (app är namnet på projektet och kan bytas ut till det som passar dig.)
 ```
 npm install -g @vue/cli
 vue create app
@@ -140,10 +140,10 @@ Lägg dessa i index.html filen som du skapar under resourses i Spring projektet.
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 ```
 #### Installera React - NPM
-Först behöver du ha laddat ner Node.js till din dator.
-Skapa en mapp på skrivbordet och öppna den i Visual Studio Code
-Öppna en ny terminal och kör följande kommandon: 
-(my-app är namnet på projektet och kan bytas ut till det som passar dig.)
+* Först behöver du ha laddat ner Node.js till din dator.
+* Skapa en mapp på skrivbordet och öppna den i Visual Studio Code
+* Öppna en ny terminal och kör följande kommandon: 
+* (my-app är namnet på projektet och kan bytas ut till det som passar dig.)
 ```
 npx create-react-app my-app
 cd my-app
@@ -152,10 +152,10 @@ npm start
 #### Installera Angular - NPM
 **Angular kan bara användas med NPM**
 
-Först behöver du ha laddat ner Node.js till din dator.
-Skapa en mapp på skrivbordet och öppna den i Visual Studio Code
-Öppna en ny terminal och kör följande kommandon: 
-(my-app är namnet på projektet och kan bytas ut till det som passar dig.)
+* Först behöver du ha laddat ner Node.js till din dator.
+* Skapa en mapp på skrivbordet och öppna den i Visual Studio Code
+* Öppna en ny terminal och kör följande kommandon: 
+* (my-app är namnet på projektet och kan bytas ut till det som passar dig.)
 
 ```
 npm install -g @angular/cli
