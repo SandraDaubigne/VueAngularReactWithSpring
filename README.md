@@ -133,7 +133,7 @@ cd app
 npm run serve
 ```
 
-#### Installera React -CDN
+#### Installera React - CDN
 Lägg dessa i index.html filen som du skapar under resourses i Spring projektet. 
 ```
 <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
@@ -149,16 +149,12 @@ npx create-react-app my-app
 cd my-app
 npm start
 ```
-#### Installera Angular
-För att kunna använda [NPM](#förklaringar-förkortningar) behöver du först installera node.js på din enhet. I den installation ingår [NPM](#förklaringar-förkortningar).
-
-Angular kan inte använda [CDN](#förklaringar-förkortningar) vilket gjorde att jag fattade beslutet att göra en separat frontendapplikation 
-som kan prata med backendapplikationen, istället för att inkludera det i Springprojektet (backend) som jag gjort med Vue och React. 
-
-Jag gjorde enligt följande: 
-* Gör en tom mapp på skrivbordet där Angular installationen kan landa. 
-* Öppna mappen i Visual Studio Code och ange följande kommandon:
-(app är namnet på projektet och kan bytas ut till det som passar dig.)
+#### Installera Angular - NPM
+**Angular kan bara användas med NPM**
+Först behöver du ha laddat ner Node.js till din dator.
+Skapa en mapp på skrivbordet och öppna den i Visual Studio Code
+Öppna en ny terminal och kör följande kommandon: 
+(my-app är namnet på projektet och kan bytas ut till det som passar dig.)
 
 ```
 npm install -g @angular/cli
