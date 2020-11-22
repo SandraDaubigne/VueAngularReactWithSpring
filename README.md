@@ -12,6 +12,8 @@
 Jag har under min LIA period på Sopra Steria under hösten 2020 som en del av min utbildning javautvecklare på 
 Teknikhögskolan i Göteborg fått följande uppdrag: 
 
+* Jämföra de tre största frontendramverken Vue, React och Angular med varandra. 
+
 Syfte med detta projekt är att jämföra de 3 största frontend ramverkets fördelar och nackdelar i användarupplevelse från ett backend perspektiv.
 
 Fokuset i detta projektet har varit att utvärdera hur enkelt vs svårt det har varit att sätta upp ett frontend till en befintlig backendkod. 
