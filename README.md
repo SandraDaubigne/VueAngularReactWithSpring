@@ -151,6 +151,7 @@ npm start
 ```
 #### Installera Angular - NPM
 **Angular kan bara användas med NPM**
+
 Först behöver du ha laddat ner Node.js till din dator.
 Skapa en mapp på skrivbordet och öppna den i Visual Studio Code
 Öppna en ny terminal och kör följande kommandon: 
