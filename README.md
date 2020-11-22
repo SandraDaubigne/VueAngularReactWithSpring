@@ -129,8 +129,9 @@ För att kunna använda [NPM](#förklaringar-förkortningar) behöver du först 
 Angular kan inte använda [CDN](#förklaringar-förkortningar) vilket gjorde att jag fattade beslutet att göra en separat frontendapplikation 
 som kan prata med backendapplikationen, istället för att inkludera det i Springprojektet (backend) som jag gjort med Vue och React. 
 
-Gör en tom mapp på skrivbordet där Angular installationen kan landa. 
-Öppna mappen i Visual Studio Code och ange följande kommandon:
+Jag gjorde enligt följande: 
+* Gör en tom mapp på skrivbordet där Angular installationen kan landa. 
+* Öppna mappen i Visual Studio Code och ange följande kommandon:
 
 ```
 npm install -g @angular/cli
