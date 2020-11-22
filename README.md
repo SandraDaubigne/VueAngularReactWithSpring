@@ -69,6 +69,9 @@ pom.xml filen tillåter mig att hämta hem dependencies direkt från [Maven repo
 * Till Angular har jag använt mig av Visual Studio Code och tagit in ramverket som [NPM](#förklaringar-förkortningar). 
 
 ## Setup för arbetsmiljö
+
+### Backend: 
+
 #### Skapa ett nytt projekt i IntelliJ med med Spring Initializer:
 * Välj Web
 * Välj Spring web (För tomcat webserver)
@@ -105,6 +108,8 @@ spring.datasource.password=root
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
 ```
+
+### Frontend
 
 #### Installera Vue - CDN
 Lägg dessa i index.html filen som du skapar under resourses i Spring projektet. 
