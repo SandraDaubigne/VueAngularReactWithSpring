@@ -45,9 +45,7 @@ De har bedömts utifrån egna upplevelser av mig som systemutvecklare(java) med 
 ## Miljöspecifikation
 
 ### Backend-miljön
-Jag har använt mig av 
-IDE - IntelliJ IDEA 
-Med Maven för att få pom.xml fil
+Jag har använt mig av IDE - IntelliJ IDEA Med Spring ramverket samtMaven för att få pom.xml fil
 pom.xml filen tillåter mig att hämta hem dependencies direkt från [Maven repository](https://mvnrepository.com/). 
 
 Backend har en Databaskoppling till MySQL databas som genereras via Hibernate. 
