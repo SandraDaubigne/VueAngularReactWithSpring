@@ -44,7 +44,7 @@ De har bedömts utifrån egna upplevelser av mig som systemutvecklare(java) med 
 
 ## Miljöspecifikation
 
-### Backend
+### Backend-miljön
 Jag har använt mig av 
 IDE - IntelliJ IDEA 
 Med Maven för att få pom.xml fil
