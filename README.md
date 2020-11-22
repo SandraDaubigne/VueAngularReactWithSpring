@@ -144,7 +144,6 @@ cd app
 ng serve
 
 ```
-Öppna localhost:4200 och där är nu din frontend app. 
 
 
 
