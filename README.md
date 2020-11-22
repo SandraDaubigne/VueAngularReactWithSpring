@@ -1,16 +1,16 @@
 # Dokumentation Projekt jämföra ramverk
 
 ##### Dokumentationen består av följande delar: 
-* [Ramverk](#jämnförelse-Ramverk)
+* [Jämnförelse ramverk](#jämnförelse-Ramverk)
 * [Programmets funktion](#programmets-funktion)
 * [Miljöspecifikation](#miljöspecifikation)
 * [Setup av arbetsmiljö](#setup-för-arbetsmiljö)
 
 ##### Förklaringar förkortningar:
-* **NPM** - Node Package Maneger, tar in ramverket lokalt på datorn genom att ange vissa kommandon i terminalen. 
-* **CDN** - Content Delivery Network, en url som tas in i scriptfil i .html filen och förser projektet med ramverket från annan server än din egen. 
-* **JSX** - JavaScript XML Ett tillägg i JavaScript för att kunna skriva html liknande taggar direkt inne i JavaScript
-* **XSS** - Cross Site Scripting, ett säkerthetshål i hmtl där script skickas in i html taggar. 
+* **NPM** - Node Package Manager, tar in ramverket lokalt på datorn genom att ange vissa kommandon i terminalen. 
+* **CDN** - Content Delivery Network, en url som tas in i script-tagg i .html filen och förser projektet med ramverket från annan server än din egen. 
+* **JSX** - JavaScript XML, ett tillägg i JavaScript för att kunna skriva html liknande taggar direkt inne i JavaScript.
+* **XSS** - Cross Site Scripting, potentiella säkerthetshål i hmtl där script skickas in i html taggar från browsern. 
 
 ## Jämnförelse Ramverk:
 Jag har under min LIA period på Sopra Steria under hösten 2020 som en del av min utbildning javautvecklare på 
@@ -20,7 +20,7 @@ Teknikhögskolan i Göteborg fått följande uppdrag:
 
 Syfte med detta projekt är att jämföra de 3 största frontend ramverkets fördelar och nackdelar i användarupplevelse från ett backend perspektiv.
 
-Fokuset i detta projektet har varit att utvärdera hur enkelt det har varit att sätta upp ett frontend till sin befintliga backendkod. 
+Fokuset i detta projektet har varit att utvärdera hur enkelt vs svårt det har varit att sätta upp ett frontend till en befintlig backendkod. 
 
 Bedömningen har skett av egna användarupplevelser gällande huruvida dessa delar har varit enkla eller svåra.
 De har bedömts utifrån egna upplevelser av mig som systemutvecklare(java) med viss webb utvecklarbakgrund och baserats på följande delar: 
@@ -31,41 +31,51 @@ De har bedömts utifrån egna upplevelser av mig som systemutvecklare(java) med 
 
 ## Programmets funktion: 
 * Backendkoden består av en blogg som ska leverera en lista av bloggar med namn och beskrivning till klienten. 
-* De tre olika frontenramverken skickar http request till backend och mottar respons från APIet.
+* De tre olika frontenramverken skickar http request till backend och mottar respons från APIet och förser klienten med listan. 
 
 #### Klass-specifikationer
-* **Topic** är min POJO klass som fungerar som Entity mot Hibernate.
+* **Topic** är POJO klass som fungerar som Entity mot Hibernate.
 * **TopicService** är Model klassen som hanterar all Business Logic.
 * **TopicRepository** tar in CrudRepository från Hibernate och ger min färdiga metoder till Entiteter, att använda i TopicService-klassen. 
-* **TopicController** är controller klassen som blir dispatcherservlet åt Tomcat och som håller mina Mapper handlers som hanterar inkommande Request och responser från http protokollet. 
+* **TopicController** är controller klassen som blir dispatcherservlet åt Tomcat och som håller mina Mapper handlers som hanterar inkommande Request och responser från frontendramverket. 
 
 ### Bedömning Vue
-* **Setup** Vue kan användas genom både [CDN](#förklaringar-förkortningar) och [NPM](#förklaringar-förkortningar) vilket gjorde det enkelt att starta utan lokal installation.
+* **Setup** Vue kan installeras genom både [CDN](#förklaringar-förkortningar) och [NPM](#förklaringar-förkortningar), vilket gjorde det enkelt att starta utan lokal installation.
 Jag använde mig av [CDN](#förklaringar-förkortningar) vilket innebar att jag kunde använda mig direkt av Springramverket och fortsätta på det befintliga backendprojektet med min frontend. Det enda tillägget som behövdes var [thymeleaf](#thymeleaf) i pom.xl filen. 
 * **Språk** Vue var enkelt att användas då det bestod av Vanilla JavaScript.
-* **Typsäkert** Vue använder implicit ett Javascript Bibliotek som inte är typsäkert, men det kan användas även med TypeScript som är Typsäkert, dock blir detta svårare än det implicita då det kräver mera installationer. 
+* **Typsäkert** Vue använder implicit ett Javascript Bibliotek som inte är typsäkert, men Vue kan användas även med TypeScript som är Typsäkert, dock blir detta svårare än det implicita språket då det kräver mera installationer. 
 
 ### Bedömning React
-* **Setup** Vue kan användas genom både [CDN](#förklaringar-förkortningar) och [NPM](#förklaringar-förkortningar) vilket gjorde det enkelt att starta utan lokal installation. 
+* **Setup** Vue kan installeras genom både [CDN](#förklaringar-förkortningar) och [NPM](#förklaringar-förkortningar), vilket gjorde det enkelt att starta utan lokal installation. 
 Jag använde mig av [CDN](#förklaringar-förkortningar) vilket innebar att jag kunde använda mig direkt av Springramverket och fortsätta på det befintliga backendprojektet med min frontend. Det enda tillägget som behövdes var [thymeleaf](#thymeleaf) i pom.xl filen. 
 * **Språk** React använder endast JavaScript ES6 och behövde därför använda Babel för att kompileras, detta gjorde det lite svårare. De använder dessutom ofta ett tillägg till JavaScript, [JSX](#förklaringar-förkortningar). Detta förhindrar dock [XXS](#förklaringar-förkortningar). 
-* **Typsäkert** React använder implicit ett Javascript Bibliotek som inte är typsäkert, men det kan användas även med TypeScript som är Typsäkert, dock blir detta svårare än det implicita då det kräver mera installationer
+* **Typsäkert** React använder implicit ett Javascript Bibliotek som inte är typsäkert, men React kan användas även med TypeScript som är Typsäkert, dock blir detta svårare än det implicita då det kräver mera installationer.
 
 ### Bedömning Angular
-* **Setup** Det var det svåraste ramverket att sätta upp då det bara går att använda lokalt med [NPM](#förklaringar-förkortningar). Vilket innebar att jag inte längre kunde använda mig av min Springapplikations backend längre, utan jag fick dela upp frontend och backend i två olika projekt. 
-* **Språk** Angular använder TypeScript det var för en backendutvecklare enklare att förstå än vanlig JavaScript
+* **Setup** Det var det svåraste ramverket att sätta upp då det bara går att använda lokalt med [NPM](#förklaringar-förkortningar), vilket innebar att jag inte längre kunde använda mig av min Springapplikations backend längre, utan jag fick dela upp frontend och backend i två olika projekt. 
+* **Språk** Angular använder TypeScript det var för en backendutvecklare enklare att förstå än vanlig JavaScript.
 * **Typsäkert** Angular använder implicit TypeScript, en extension JavaScript. TypeScript är ett typsäkert språk så det var lätt att göra koden typsäker. 
 
 ## Miljöspecifikation
 
 ### Backend
 Jag har använt mig av 
-IntelliJ IDEA For Spring applikation JavaEE
+IDE - IntelliJ IDEA 
+Med Maven för att få pom.xml fil
+pom.xml filen tillåter mig att hämta hem dependencies direkt från [Maven repository](https://mvnrepository.com/). 
 
-Med följande tillägg i Spring Initializer Maven projekt
-* Spring MVC (För TomCat web server samt Dispatcherservlet) 
-* Spring Data JDBC (För SQL DB Connection)
-* Spring Data JPA (för Hibernate)
+### Frontend-miljön
+* Till Vue och React har jag använt mig av Spring Ramverket med Thymeleaf och index.html fil där jag har skrivit all html och JavaScript och tagit in ramverken med [CDN](#förklaringar-förkortningar).
+* Till Angular har jag använt mig av Visual Studio Code och tagit in ramverket som [NPM](#förklaringar-förkortningar). 
+
+## Setup för arbetsmiljö
+#### Skapa ett nytt projekt i IntelliJ med med Spring Initializer:
+* Välj Web
+* Välj Spring web (För tomcat webserver)
+* Välj SQL
+* Välj Spring Data JPA (För hibernate)
+
+#### Lägg till följande dependencies i pom.xml filen: 
 
 ##### Thymeleaf:
 Med följande tillägg i pom.xml - filen
@@ -76,29 +86,25 @@ Med följande tillägg i pom.xml - filen
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 ```
-### Frontend-miljön
-* Till Vue och React har jag använt mig av Spring Ramverket med Thymeleaf och index.html fil där jag har skrivit all html och JavaScript och tagit in ramverken med CDN 
-* Till Angular har jag använt mig av Visual Studio Code och tagit in ramverket som NPM. 
 
-
-## Setup för arbetsmiljö
-
-#### Setup IntelliJ
-Skapa ett nytt projekt
-Välj Spring Initializr
-Välj lämplig Artifact
-Välj Dependencies: 
+* MySQL connector
 ```
-Web -> spring Web
-SQL -> Spring Data JDBC  samt Spring Data JPA
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
 ```
-Välj lämpligt projektnamn
 
-Jag lägger till maven dependency thymeleaf för att kunna rendera view
-<dependency>
-   <groupId>org.springframework.boot</groupId>
-   <artifactId>spring-boot-starter-thymeleaf</artifactId>
-</dependency>
+* Lägg till följande databaskoppling i application.properties (under resourses)
+* Databasens namn är topic, byt mot din egna databas namn. 
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/topic?useSSL=false&serverTimezone=UTC
+
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
+```
 
 #### Installera Vue - CDN
 Lägg dessa i index.html filen som du skapar under resourses i Spring projektet. 

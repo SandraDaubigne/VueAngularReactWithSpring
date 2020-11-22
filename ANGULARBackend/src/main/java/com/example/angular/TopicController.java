@@ -1,6 +1,7 @@
 package com.example.angular;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
@@ -14,6 +15,8 @@ public class TopicController {
     //Hämta alla objekt
     //Skapa en metod som hämtar ett en lista av objekt och returnerar
     //dem som JSON genom restcontroller
+
+    @CrossOrigin
     @GetMapping("/all")
     public List<Topic> topics(){
         return topicService.getAllTopics();

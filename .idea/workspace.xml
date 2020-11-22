@@ -21,6 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c57131b0-d821-4f1a-9c3c-dff5f815bcaa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARBackend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ANGULARBackend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARBackend/src/main/java/com/example/angular/TopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ANGULARBackend/src/main/java/com/example/angular/TopicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARBackend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ANGULARBackend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARFrontend/app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ANGULARFrontend/app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARFrontend/app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ANGULARFrontend/app/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANGULARFrontend/app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ANGULARFrontend/app/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +65,9 @@
       <workItem from="1605782414944" duration="1105000" />
       <workItem from="1605783562532" duration="4169000" />
       <workItem from="1605865646821" duration="1491000" />
-      <workItem from="1605955632739" duration="1793000" />
+      <workItem from="1605955632739" duration="3844000" />
+      <workItem from="1606030836108" duration="18000" />
+      <workItem from="1606031251454" duration="1844000" />
     </task>
     <servers />
   </component>
@@ -84,10 +92,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="2721" y="236" key="FileChooserDialogImpl" timestamp="1605784595493">
+    <state x="2721" y="236" key="FileChooserDialogImpl" timestamp="1606030852421">
       <screen x="2160" y="0" width="1920" height="1040" />
     </state>
-    <state x="2721" y="236" key="FileChooserDialogImpl/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1605784595493" />
+    <state x="2721" y="236" key="FileChooserDialogImpl/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1606030852421" />
     <state x="222" y="105" key="SettingsEditor" timestamp="1605865718624">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
