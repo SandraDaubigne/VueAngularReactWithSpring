@@ -1,22 +1,16 @@
 # Dokumentation Projekt jämföra ramverk
 
 ##### Dokumentationen består av följande delar: 
-* [Jämnförelse ramverk](#jämnförelse-Ramverk)
+* [Syfte](#syfte)
+* [Förklaringar förkortningar](#förklaringar-förkortningar)
 * [Programmets funktion](#programmets-funktion)
 * [Miljöspecifikation](#miljöspecifikation)
+* [Jämförelse ramverk](#jämförelse-ramverk)
 * [Setup av arbetsmiljö](#setup-för-arbetsmiljö)
 
-##### Förklaringar förkortningar:
-* **NPM** - Node Package Manager, tar in ramverket lokalt på datorn genom att ange vissa kommandon i terminalen. 
-* **CDN** - Content Delivery Network, en url som tas in i script-tagg i .html filen och förser projektet med ramverket från annan server än din egen. 
-* **JSX** - JavaScript XML, ett tillägg i JavaScript för att kunna skriva html liknande taggar direkt inne i JavaScript.
-* **XSS** - Cross Site Scripting, potentiella säkerthetshål i hmtl där script skickas in i html taggar från browsern. 
-
-## Jämnförelse Ramverk:
+## Syfte
 Jag har under min LIA period på Sopra Steria under hösten 2020 som en del av min utbildning javautvecklare på 
 Teknikhögskolan i Göteborg fått följande uppdrag: 
-
-#### Jämföra de 3 största JavaScript ramverken Vue, React och Angular med varandra. 
 
 Syfte med detta projekt är att jämföra de 3 största frontend ramverkets fördelar och nackdelar i användarupplevelse från ett backend perspektiv.
 
@@ -29,6 +23,13 @@ De har bedömts utifrån egna upplevelser av mig som systemutvecklare(java) med 
 * Språk - Att använda ramverkets implicita språk
 * Typsäkert - Att skriva typsäkert i ramverket
 
+##### Förklaringar förkortningar:
+* **NPM** - Node Package Manager, tar in ramverket lokalt på datorn genom att ange vissa kommandon i terminalen. 
+* **CDN** - Content Delivery Network, en url som tas in i script-tagg i .html filen och förser projektet med ramverket från annan server än din egen. 
+* **JSX** - JavaScript XML, ett tillägg i JavaScript för att kunna skriva html liknande taggar direkt inne i JavaScript.
+* **XSS** - Cross Site Scripting, potentiella säkerthetshål i hmtl där script skickas in i html taggar från browsern. 
+
+
 ## Programmets funktion: 
 * Backendkoden består av en blogg som ska leverera en lista av bloggar med namn och beskrivning till klienten. 
 * De tre olika frontenramverken skickar http request till backend och mottar respons från APIet och förser klienten med listan. 
@@ -39,6 +40,19 @@ De har bedömts utifrån egna upplevelser av mig som systemutvecklare(java) med 
 * **TopicRepository** tar in CrudRepository från Hibernate och ger min färdiga metoder till Entiteter, att använda i TopicService-klassen. 
 * **TopicController** är controller klassen som blir dispatcherservlet åt Tomcat och som håller mina Mapper handlers som hanterar inkommande Request och responser från frontendramverket. 
 
+## Miljöspecifikation
+
+### Backend
+Jag har använt mig av 
+IDE - IntelliJ IDEA 
+Med Maven för att få pom.xml fil
+pom.xml filen tillåter mig att hämta hem dependencies direkt från [Maven repository](https://mvnrepository.com/). 
+
+### Frontend-miljön
+* Till Vue och React har jag använt mig av Spring Ramverket med Thymeleaf och index.html fil där jag har skrivit all html och JavaScript och tagit in ramverken med [CDN](#förklaringar-förkortningar).
+* Till Angular har jag använt mig av Visual Studio Code och tagit in ramverket som [NPM](#förklaringar-förkortningar). 
+
+## Jämförelse ramverk
 ### Bedömning Vue
 * **Setup** Vue kan installeras genom både [CDN](#förklaringar-förkortningar) och [NPM](#förklaringar-förkortningar), vilket gjorde det enkelt att starta utan lokal installation.
 Jag använde mig av [CDN](#förklaringar-förkortningar) vilket innebar att jag kunde använda mig direkt av Springramverket och fortsätta på det befintliga backendprojektet med min frontend. Det enda tillägget som behövdes var [thymeleaf](#thymeleaf) i pom.xl filen. 
@@ -55,18 +69,6 @@ Jag använde mig av [CDN](#förklaringar-förkortningar) vilket innebar att jag 
 * **Setup** Det var det svåraste ramverket att sätta upp då det bara går att använda lokalt med [NPM](#förklaringar-förkortningar), vilket innebar att jag inte längre kunde använda mig av min Springapplikations backend längre, utan jag fick dela upp frontend och backend i två olika projekt. 
 * **Språk** Angular använder TypeScript det var för en backendutvecklare enklare att förstå än vanlig JavaScript.
 * **Typsäkert** Angular använder implicit TypeScript, en extension JavaScript. TypeScript är ett typsäkert språk så det var lätt att göra koden typsäker. 
-
-## Miljöspecifikation
-
-### Backend
-Jag har använt mig av 
-IDE - IntelliJ IDEA 
-Med Maven för att få pom.xml fil
-pom.xml filen tillåter mig att hämta hem dependencies direkt från [Maven repository](https://mvnrepository.com/). 
-
-### Frontend-miljön
-* Till Vue och React har jag använt mig av Spring Ramverket med Thymeleaf och index.html fil där jag har skrivit all html och JavaScript och tagit in ramverken med [CDN](#förklaringar-förkortningar).
-* Till Angular har jag använt mig av Visual Studio Code och tagit in ramverket som [NPM](#förklaringar-förkortningar). 
 
 ## Setup för arbetsmiljö
 
