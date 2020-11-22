@@ -120,13 +120,35 @@ Lägg dessa i index.html filen som du skapar under resourses i Spring projektet.
 ```
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
 ```
-#### Installera React
+
+#### Installera Vue - NPM
+Först behöver du ha laddat ner Node.js till din dator.
+Skapa en mapp på skrivbordet och öppna den i Visual Studio Code
+Öppna en ny terminal och kör följande kommandon: 
+(app är namnet på projektet och kan bytas ut till det som passar dig.)
+```
+npm install -g @vue/cli
+vue create app
+cd app
+npm run serve
+```
+
+#### Installera React -CDN
 Lägg dessa i index.html filen som du skapar under resourses i Spring projektet. 
 ```
 <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 ```
-
+#### Installera React - NPM
+Först behöver du ha laddat ner Node.js till din dator.
+Skapa en mapp på skrivbordet och öppna den i Visual Studio Code
+Öppna en ny terminal och kör följande kommandon: 
+(my-app är namnet på projektet och kan bytas ut till det som passar dig.)
+```
+npx create-react-app my-app
+cd my-app
+npm start
+```
 #### Installera Angular
 För att kunna använda [NPM](#förklaringar-förkortningar) behöver du först installera node.js på din enhet. I den installation ingår [NPM](#förklaringar-förkortningar).
 
@@ -136,6 +158,7 @@ som kan prata med backendapplikationen, istället för att inkludera det i Sprin
 Jag gjorde enligt följande: 
 * Gör en tom mapp på skrivbordet där Angular installationen kan landa. 
 * Öppna mappen i Visual Studio Code och ange följande kommandon:
+(app är namnet på projektet och kan bytas ut till det som passar dig.)
 
 ```
 npm install -g @angular/cli
