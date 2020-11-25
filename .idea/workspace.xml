@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c57131b0-d821-4f1a-9c3c-dff5f815bcaa" name="Default Changelist" comment="" />
+    <list default="true" id="c57131b0-d821-4f1a-9c3c-dff5f815bcaa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitHubCodebankSAVE/SpringCodeBank/SpringWithH2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SvnConfiguration">
@@ -59,6 +61,7 @@
       <workItem from="1605955632739" duration="3844000" />
       <workItem from="1606030836108" duration="18000" />
       <workItem from="1606031251454" duration="5075000" />
+      <workItem from="1606293458954" duration="717000" />
     </task>
     <servers />
   </component>
@@ -83,9 +86,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="2721" y="236" key="FileChooserDialogImpl" timestamp="1606030852421">
-      <screen x="2160" y="0" width="1920" height="1040" />
+    <state x="421" y="209" key="FileChooserDialogImpl" timestamp="1606293562112">
+      <screen x="0" y="0" width="1440" height="920" />
     </state>
+    <state x="421" y="209" key="FileChooserDialogImpl/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1606293562112" />
     <state x="2721" y="236" key="FileChooserDialogImpl/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1606030852421" />
     <state x="222" y="105" key="SettingsEditor" timestamp="1605865718624">
       <screen x="0" y="0" width="1440" height="920" />
