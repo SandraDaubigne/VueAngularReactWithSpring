@@ -17,8 +17,7 @@ public class TopicController {
         return topicService.getAllTopics();
     }
 
-
-    /*
+/*
     //Endpoint for create a topic
     @GetMapping("/create")
     public String createTopic(){
@@ -27,6 +26,7 @@ public class TopicController {
         topicService.createTopic("Blogg 3", "This is blogg 3");
         return "redirect:all";
     }
+
 
     //Endpoint for get all topics
     @GetMapping("all")

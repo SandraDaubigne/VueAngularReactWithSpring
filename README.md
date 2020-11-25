@@ -63,7 +63,7 @@ Jag använde mig av [CDN](#förklaringar-förkortningar) vilket innebar att jag 
 ### Bedömning React
 * **Setup** Vue kan installeras genom både [CDN](#förklaringar-förkortningar) och [NPM](#förklaringar-förkortningar), vilket gjorde det enkelt att starta utan lokal installation. 
 Jag använde mig av [CDN](#förklaringar-förkortningar) vilket innebar att jag kunde använda mig direkt av Springramverket och fortsätta på det befintliga backendprojektet med min frontend. Det enda tillägget som behövdes var [thymeleaf](#thymeleaf) i pom.xl filen. 
-* **Språk** React använder endast JavaScript ES6 och behövde därför använda Babel för att kompileras, detta gjorde det lite svårare. De använder dessutom ofta ett tillägg till JavaScript, [JSX](#förklaringar-förkortningar). Detta förhindrar dock [XXS](#förklaringar-förkortningar). 
+* **Språk** React använder endast JavaScript ES6 och behövde därför använda Babel för att kompileras, detta gjorde det lite svårare. De använder dessutom ofta ett tillägg till JavaScript, [JSX](#förklaringar-förkortningar). Detta förhindrar dock [XSS](#förklaringar-förkortningar). 
 * **Typsäkert** React använder implicit ett Javascript Bibliotek som inte är typsäkert, men React kan användas även med TypeScript som är Typsäkert, dock blir detta svårare än det implicita då det kräver mera installationer.
 
 ### Bedömning Angular

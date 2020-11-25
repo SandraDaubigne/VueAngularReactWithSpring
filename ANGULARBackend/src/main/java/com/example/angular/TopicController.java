@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "*")
 public class TopicController {
 
     @Autowired
@@ -16,7 +17,7 @@ public class TopicController {
     //Skapa en metod som hämtar ett en lista av objekt och returnerar
     //dem som JSON genom restcontroller
 
-    @CrossOrigin
+
     @GetMapping("/all")
     public List<Topic> topics(){
         return topicService.getAllTopics();
